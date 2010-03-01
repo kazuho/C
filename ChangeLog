@@ -1,0 +1,142 @@
+2006-05-19 14:18  labskazuho
+
+	* fix bug: temporary directories were not created in root_dir/tmp,
+	  but in root_dir support for -S
+
+2006-02-02 16:47  labskazuho
+
+	* 0.05 RC1
+
+2006-01-30 15:56  labskazuho
+
+	* update configure.ac to match the newest source code
+
+2006-01-30 15:42  labskazuho
+
+	* support command line option --, to declare the end of options,
+	  and a special filename -, to declare stdin to be used
+
+2006-01-30 15:31  labskazuho
+
+	* allow sharing of cache and temporary directories if TMPDIR is
+	  being set
+
+2006-01-30 15:21  labskazuho
+
+	* support for environment variable TMPDIR
+
+2006-01-24 17:23  labskazuho
+
+	* eliminate the use of MAXPATHLEN
+
+2006-01-23 15:30  labskazuho
+
+	* C.1 to be removed on make clean
+
+2006-01-21 18:03  labskazuho
+
+	* rename cvsignore to .cvsignore
+
+2006-01-21 17:48  labskazuho
+
+	* add cvsignore
+
+2006-01-17 15:23  labskazuho
+
+	* update ChangeLog
+
+2006-01-17 15:10  labskazuho
+
+	* modifications for portability
+
+2006-01-17 11:43  labskazuho
+
+	* implement cache expiration mechanism
+
+2006-01-17 07:19  labskazuho
+
+	* add example files
+
+2006-01-17 01:59  labskazuho
+
+	* modify output of --version and --help to match the format
+	  accepted by help2man
+
+2006-01-17 00:54  labskazuho
+
+	* enable compile caching for oneliners
+
+2006-01-17 00:41  labskazuho
+
+	* remove Makefile.in as well
+
+2006-01-17 00:32  labskazuho
+
+	* remove configure and aclocal.m4, since the CVS does not preserve
+	  file modification dates, it seems impossible to make the CVS
+	  version autotools-free.
+
+2006-01-17 00:28  labskazuho
+
+	* update configure.ac to match C.c
+
+2006-01-17 00:17  labskazuho
+
+	* add aclocal.m4
+
+2006-01-17 00:08  labskazuho
+
+	* add Makefile.in
+
+2006-01-17 00:07  labskazuho
+
+	* add configure
+
+2006-01-17 00:04  labskazuho
+
+	* add cache mechanism
+
+2006-01-16 14:26  labskazuho
+
+	* exit(255) if waitpid failed add -Wall to compile options
+
+2006-01-16 11:33  labskazuho
+
+	* added files for automake
+
+2006-01-14 19:35  labskazuho
+
+	* change license from GPL2orlater to GPL2only
+
+2006-01-14 16:59  labskazuho
+
+	* add --version
+
+2006-01-14 16:54  labskazuho
+
+	* enable passing GCC arguments not starting with a hyphen
+
+2006-01-13 16:13  labskazuho
+
+	* add copyright notice and license terms
+
+2006-01-13 15:13  labskazuho
+
+	* surpress "subscript has type `char'" warning under Solaris 8
+
+2006-01-13 15:01  labskazuho
+
+	* rename __unused to argc
+
+2006-01-13 14:57  labskazuho
+
+	* add sys/param.h to includes, to lookup MAXPATHLEN
+
+2006-01-13 14:48  labskazuho
+
+	* Initial revision
+
+2006-01-13 14:48  labskazuho
+
+	* initial version
+
