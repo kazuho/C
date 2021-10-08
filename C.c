@@ -23,6 +23,7 @@
  * MA 02110-1301, USA.
  * 
  */
+//what is the output of this code
 
 
 #include <ctype.h>
